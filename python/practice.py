@@ -76,3 +76,25 @@ for i in range(0,len(newSequence)):
 # min(sequence)
 # sorted(sequence)
 
+my_list = [1,2,3,4]
+print my_list
+
+string_list = ["strings","in","A","list"]
+
+my_list.extend([2,1,4,1])
+print my_list
+
+my_list.extend(string_list)
+print my_list
+
+print my_list.index(1)
+
+x = 3
+y = 5
+while y > 0:
+    print  y
+    y = y - 1
+    if y == 1:
+        break
+else:
+    print "FINAL else"

@@ -2,7 +2,7 @@
 
 def reverseArray(array):
     print "Reversing array", array
-    for x in range(0,len(array)/2):
+    for x in range(0,len(array)/2)  :
         print "arr" + str(x) 
         tempvar = array[x]
         array[x] = array[len(array)-1-x]
